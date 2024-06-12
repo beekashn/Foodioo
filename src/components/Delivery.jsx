@@ -23,10 +23,6 @@ const Delivery = () => {
           initial="hidden"
           whileInView="visible"
           // viewport={{ once: true, amount: 0.1 }}
-          drag
-          whileDrag={{ scale: 1.2 }}
-          dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
-          dragTransition={{ bounceStiffness: 300, bounceDamping: 10 }}
           className="w-[400px] mx-auto my-4 cursor-pointer]"
           src="https://res.cloudinary.com/ehizeex-shop/image/upload/v1672676822/NetflixApp/FC_two_phones.6ec9a842f905769677f9_m91off.webp"
           alt=""
