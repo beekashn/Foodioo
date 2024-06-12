@@ -40,10 +40,7 @@ const Meal = ({ food, handleFilter }) => {
         ) : (
           food.map((meal) => (
             <motion.div
-              drag
-              whileDrag={{ scale: 1.2, zIndex: 9999 }}
-              dragConstraints={{ left: 0, right: 0, top: 0, bottom: 0 }}
-              dragTransition={{ bounceStiffness: 300, bounceDamping: 10 }}
+           
               key={meal.id}
               className="border-none rounded-3xl bg-slate-100 shadow-2xl p-2"
             >
