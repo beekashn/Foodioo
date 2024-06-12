@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  button {
+    @apply border border-black rounded-xl px-5 py-1;
+  }
+}
+::-webkit-scrollbar-thumb {
+  background-color: blue;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #a998ca;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: blue;
+}
+
+.textShadowSmall {
+  text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.9);
+  letter-spacing: 0.2rem;
+}
+.textShadowMedium {
+  text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.7);
+  letter-spacing: 0.2rem;
+}
+
+.textShadowSmallBlue {
+  text-shadow: 2px 2px 4px rgba(104, 87, 172, 0.9);
+  letter-spacing: 0.1rem;
+}
+.textShadowSmallOrange {
+  text-shadow: 2px 3px 4px rgba(255, 136, 0, 0.9);
+  letter-spacing: 0.2rem;
+}
+.textShadowParagraph {
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.9);
+  letter-spacing: 0.1rem;
+}
+
+.customBorderRadius {
+  border-radius: 1.5rem 60px;
+}
+
+.customBoxShadow {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+}
