@@ -40,7 +40,6 @@ const Meal = ({ food, handleFilter }) => {
         ) : (
           food.map((meal) => (
             <motion.div
-           
               key={meal.id}
               className="border-none rounded-3xl bg-slate-100 shadow-2xl p-2"
             >
