@@ -74,7 +74,7 @@ const Featured = () => {
         }}
         className="flex justify-center items-center py-10 text-2xl md:text-4xl"
       >
-        <h1 className="textShadowMedium">Let's Explore Together</h1>
+        <h1 className="textShadowMedium">Go with us</h1>
       </motion.div>
     </div>
   );
